@@ -42,23 +42,7 @@ if (has_header_image()) {
                 <?php do_action('magnitude_load_site_branding'); ?>
             </div>
             <div class="header-advertise">
-                <?php // do_action('magnitude_action_banner_advertisement'); ?>
-<ins class="adsbygoogle"
-     style="display:inline-block;width:930px;height:100px"
-     data-ad-client="ca-pub-7212507732872095"
-     data-ad-slot="5165315782"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<amp-ad width="100vw" height="320"
-type="adsense"
-data-ad-client="ca-pub-7212507732872095"
-data-ad-slot="1226264296"
-data-auto-format="rspv"
-data-full-width="">
-<div overflow=""></div>
-</amp-ad>                
+                <?php do_action('magnitude_action_banner_advertisement'); ?>                
             </div>
         </div>
     </div>
