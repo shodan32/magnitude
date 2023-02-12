@@ -8,8 +8,11 @@ if (!function_exists('magnitude_banner_advertisement')):
      */
     function magnitude_banner_advertisement()
     {
-
-
+        $magnitude_banner_advertisement_code = magnitude_get_option('banner_advertisement_section_code');
+        if (('' != $magnitude_banner_advertisement_code) ) { ?>
+         <?php echo $magnitude_banner_advertisement_code; ?>
+         <?php
+        }
         $magnitude_banner_advertisement = magnitude_get_option('banner_advertisement_section');
         if (('' != $magnitude_banner_advertisement) ) { ?>
             <div class="banner-promotions-wrapper">
