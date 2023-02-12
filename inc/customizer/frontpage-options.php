@@ -82,7 +82,6 @@ $wp_customize->add_setting('banner_advertisement_section_code',
     array(
         'default' => $default['banner_advertisement_section_code'],
         'capability' => 'edit_theme_options',
-        'sanitize_callback' => 'esc_url_raw',
     )
 );
 $wp_customize->add_control('banner_advertisement_section_code',
