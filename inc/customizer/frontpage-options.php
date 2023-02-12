@@ -87,7 +87,7 @@ $wp_customize->add_setting('banner_advertisement_section_code',
 );
 $wp_customize->add_control('banner_advertisement_section_code',
     array(
-        'label' => esc_html__('URL Link', 'magnitude'),
+        'label' => esc_html__('Banner code', 'magnitude'),
         'section' => 'frontpage_advertisement_settings',
         'type' => 'text',
         'priority' => 130,
