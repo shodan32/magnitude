@@ -89,16 +89,7 @@
                     </div>
                     <?php if ($count == 3) : ?>
                     <div class="col-3 float-l pad latest-posts-grid af-sec-post mobilerekl" data-mh="latest-posts-grid">
-                        <div class="read-single color-pad">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7212507732872095"
-     data-ad-slot="5576758567"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>                        
+                        <div class="read-single color-pad">                     
                         </div>
                     </div>
                     <?php endif; ?>
