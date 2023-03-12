@@ -17,15 +17,15 @@
     <div class="af-reated-posts magnitude-customizer">
             <?php
             global $post;
-            $categories = get_the_category($post->ID);
+            $tags = get_the_tags($post->ID);
             $related_section_title = esc_attr(magnitude_get_option('single_related_posts_title'));
             $number_of_related_posts = esc_attr(magnitude_get_option('single_number_of_related_posts'));
 
-            if ($categories) {
-            $cat_ids = array();
-            foreach ($categories as $category) $cat_ids[] = $category->term_id;
+            if ($tags) {
+            $tag_ids = array();
+            foreach ($tags as $tag) $tag_ids[] = $tag->term_id;
             $args = array(
-                'category__in' => $cat_ids,
+                'tag__in' => $tag_ids,
                 'post__not_in' => array($post->ID),
                 'posts_per_page' => $number_of_related_posts, // Number of related posts to display.
                 'ignore_sticky_posts' => 1
