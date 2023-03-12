@@ -822,3 +822,21 @@ class Kama_Breadcrumbs {
  * 1.8 - FIX: заметки, когда в рубрике нет записей
  * 1.7 - Улучшена работа с приоритетными таксономиями.
  */
+
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function itndaily_banner_init() {
+
+	register_sidebar( array(
+		'name'          => 'Post banner',
+		'id'            => 'post_banner_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'itndaily_banner_init' );
