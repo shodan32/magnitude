@@ -89,7 +89,12 @@
                     </div>
                     <?php if ($count == 3) : ?>
                     <div class="col-3 float-l pad latest-posts-grid af-sec-post mobilerekl" data-mh="latest-posts-grid">
-                        <div class="read-single color-pad">                     
+                        <div class="read-single color-pad">     
+                            <?php if ( is_active_sidebar( 'post_banner_1' ) ) : ?>
+	                            <div id="post-banner-1-sidebar" class="post-banner-1-sidebar widget-area" role="complementary">
+		                            <?php dynamic_sidebar( 'post_banner_1' ); ?>
+	                            </div><!-- #post-banner-1-sidebar -->
+                            <?php endif; ?>                
                         </div>
                     </div>
                     <?php endif; ?>
