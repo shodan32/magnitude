@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <?php if ($count == 3) : ?>
-                    <div class="col-3 float-l pad latest-posts-grid af-sec-post" data-mh="latest-posts-grid">
+                    <div class="col-1 float-l pad latest-posts-grid af-sec-post" data-mh="latest-posts-grid">
                         <div class="read-single color-pad">     
                             <?php if ( is_active_sidebar( 'post_banner_1' ) ) : ?>
 	                            <div id="post-banner-1-sidebar" class="post-banner-1-sidebar widget-area" role="complementary">
