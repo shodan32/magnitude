@@ -58,6 +58,7 @@
             type:"offers",
             fallback:true,
             params:{clid:2405644,
+                adLabeling: true,
                 searchText:"<?the_title()?>",
                 sovetnikPromo:false,
                 searchInStock:true,
