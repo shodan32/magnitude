@@ -45,33 +45,7 @@
                 'after' => '</div>',
             ));
             ?>
-        </div><!-- .entry-content -->
-    <div class="prices">
-        <div id="marketWidget"></div>
-        <!-- Yandex.Market Widget -->
-        <script async src="https://aflt.market.yandex.ru/widget/script/api" type="text/javascript"></script>
-        <script type="text/javascript">
-            (function (w) {
-                function start() {
-                    w.removeEventListener("YaMarketAffiliateLoad", start);
-                    w.YaMarketAffiliate.createWidget({containerId:"marketWidget",
-            type:"offers",
-            fallback:true,
-            params:{clid:2405644,
-                adLabeling: true,
-                searchText:"<?the_title()?>",
-                sovetnikPromo:false,
-                searchInStock:true,
-                themeId:2 },
-            rotate:{marketToBeru:true } });
-                }
-                w.YaMarketAffiliate
-                    ? start()
-                    : w.addEventListener("YaMarketAffiliateLoad", start);
-            })(window);
-        </script>
-        <!-- End Yandex.Market Widget -->                  
-    </div>        
+        </div><!-- .entry-content -->       
     </div>
 <?php else:
 
