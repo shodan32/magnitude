@@ -129,24 +129,6 @@
 <a id="scroll-up" class="secondary-color">
     <i class="fa fa-angle-up"></i>
 </a>
-<!-- adlook banners -->
-<script>
-  const banners = [
-    { containerId: "adlk-banner-1", width: 782, height: 90, mobileWidth: 300, mobileHeight: 250 },
-    { containerId: "adlk-banner-2", width: 300, height: 300, mobileWidth: 300, mobileHeight: 250 },
-  ];
-
-  function initializeBanner({ containerId, width, height, mobileWidth, mobileHeight }) {
-    const init = () => window.UTInventoryCore ? new window.UTInventoryCore({
-      type: "banner", host: 2007, playMode: "autoplay-visible", container: containerId,
-      transparentSkeleton: false, width, height, collapse: "open-creativeView",
-      mobile: { width: mobileWidth, height: mobileHeight }
-    }) : setTimeout(init, 100);
-    init();
-  }
-
-  banners.forEach(initializeBanner);
-</script>
 
 <?php wp_footer(); ?>
     
