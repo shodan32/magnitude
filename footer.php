@@ -132,7 +132,7 @@
 <!-- adlook banners -->
 <script>
   const banners = [
-    { containerId: "adlk-banner-1", width: 782, height: 90, mobileWidth: 300, mobileHeight: 250 },
+    { containerId: "adlk-banner-1", width: 728, height: 90, mobileWidth: 300, mobileHeight: 250 },
     { containerId: "adlk-banner-2", width: 300, height: 300, mobileWidth: 300, mobileHeight: 250 },
   ];
 
