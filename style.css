@@ -6880,7 +6880,10 @@ body.aft-dark-mode .ham.exit {
     display: none;
 }
 .aft-small-social-menu ul a[href*="rss"]:after, .social-widget-menu ul a[href*="rss"]:before {
-    content: "\f09e";
+    content: "\f09e";  
+}
+.aft-small-social-menu ul a[href^="https://news.google.com/"]:after, .social-widget-menu ul a[href^="https://news.google.com/"]:before {
+    content: "\f1a0";
 }
 .aft-small-social-menu ul a[href*="feed"]:after, .social-widget-menu ul a[href*="feed"]:before {
     content: "\f143";
