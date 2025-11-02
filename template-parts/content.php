@@ -32,13 +32,13 @@
                 </div>
             <?php endif; ?>
             <?php
-            the_post_navigation(array(
-                'prev_text' => __('<span class="em-post-navigation">Previous:</span> %title', 'magnitude'),
-                'next_text' => __('<span class="em-post-navigation">Next:</span> %title', 'magnitude'),
-                'in_same_term' => true,
-                'taxonomy' => __('category', 'magnitude'),
-                'screen_reader_text' => __('Continue Reading', 'magnitude'),
-            ));
+            // the_post_navigation(array(
+            //     'prev_text' => __('<span class="em-post-navigation">Previous:</span> %title', 'magnitude'),
+            //     'next_text' => __('<span class="em-post-navigation">Next:</span> %title', 'magnitude'),
+            //     'in_same_term' => true,
+            //     'taxonomy' => __('category', 'magnitude'),
+            //     'screen_reader_text' => __('Continue Reading', 'magnitude'),
+            // ));
             ?>
             <?php wp_link_pages(array(
                 'before' => '<div class="page-links">' . esc_html__('Pages:', 'magnitude'),
