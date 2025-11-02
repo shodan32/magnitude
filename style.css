@@ -6883,7 +6883,13 @@ body.aft-dark-mode .ham.exit {
     content: "\f09e";  
 }
 .aft-small-social-menu ul a[href^="https://news.google.com/"]:after, .social-widget-menu ul a[href^="https://news.google.com/"]:before {
-    content: "\f1a0";
+    /* content: "\f1a0"; */
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url(./images/google-news.png);
 }
 .aft-small-social-menu ul a[href*="feed"]:after, .social-widget-menu ul a[href*="feed"]:before {
     content: "\f143";
