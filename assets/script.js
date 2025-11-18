@@ -209,8 +209,9 @@
                 autoplaySpeed: 8000,
                 infinite: true,
                 dots: true,
-                nextArrow: '<span class="slide-icon slide-next icon-right fas fa-angle-right"></span>',
-                prevArrow: '<span class="slide-icon slide-prev icon-left fas fa-angle-left"></span>',
+                arrows: false,
+                // nextArrow: '<span class="slide-icon slide-next icon-right fas fa-angle-right"></span>',
+                // prevArrow: '<span class="slide-icon slide-prev icon-left fas fa-angle-left"></span>',
                 rtl: n.RtlCheck()
             });
         },
