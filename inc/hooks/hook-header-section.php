@@ -174,18 +174,15 @@ if (!function_exists('magnitude_load_site_branding_section')):
         ?>
         <div class="site-branding">
             <?php
-            the_custom_logo();
-           /* if (is_front_page() || is_home()) : ?>
+            if (is_front_page() || is_home()) : ?>
                 <h1 class="site-title font-family-1">
-                    <a href="<?php echo esc_url(home_url('/')); ?>" class="site-title-anchor"
-                       rel="home"><?php bloginfo('name'); ?></a>
+                <?php the_custom_logo(); ?>
                 </h1>
             <?php else : ?>
                 <p class="site-title font-family-1">
-                    <a href="<?php echo esc_url(home_url('/')); ?>" class="site-title-anchor"
-                       rel="home"><?php bloginfo('name'); ?></a>
+                <?php the_custom_logo(); ?>
                 </p>
-            <?php endif; */?>
+            <?php endif; ?>
 
         </div>
 
