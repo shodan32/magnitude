@@ -6122,8 +6122,9 @@ footer .widget-title{color: #fff;}
 .site-footer .widget{margin-bottom: 20px;}
 .site-footer .widget:last-child{margin-bottom: 0;}
 .site-footer .read-single.color-pad{background-color: transparent;}
-
-
+.site-footer .textwidget a {
+    text-decoration: underline;
+}
 
 .primary-footer-area:first-child:nth-last-child(1) {
     width: 100%;
