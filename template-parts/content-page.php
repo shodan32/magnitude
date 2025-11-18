@@ -12,6 +12,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if(!is_front_page()): ?>
 
+	<div class="read-details pad ptb-10">
     <header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
@@ -20,7 +21,6 @@
 	<?php magnitude_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		<div class="entry-content read-details pad ptb-10">
 		<?php
 			the_content();
 
@@ -29,10 +29,9 @@
 				'after'  => '</div>',
 			) );
 		?>
-		</div> 
 	</div><!-- .entry-content -->
 	</div><!-- .entry-content-wrap -->
-
+    </div> 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php
