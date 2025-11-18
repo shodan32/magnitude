@@ -20,6 +20,7 @@
 	<?php magnitude_post_thumbnail(); ?>
 
 	<div class="entry-content">
+		<div class="entry-content read-details pad ptb-10">
 		<?php
 			the_content();
 
@@ -28,6 +29,7 @@
 				'after'  => '</div>',
 			) );
 		?>
+		</div> 
 	</div><!-- .entry-content -->
 	</div><!-- .entry-content-wrap -->
 
