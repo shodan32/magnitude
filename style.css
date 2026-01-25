@@ -6883,6 +6883,9 @@ body.aft-dark-mode .ham.exit {
 .aft-small-social-menu ul a[href*="rss"]:after, .social-widget-menu ul a[href*="rss"]:before {
     content: "\f09e";  
 }
+.aft-small-social-menu ul a[href^="https://t.me"]:after, .social-widget-menu ul a[href^="https://t.me"]:before {
+    content: "\f2c6";  
+}
 .aft-small-social-menu ul a[href^="https://news.google.com/"]:after, .social-widget-menu ul a[href^="https://news.google.com/"]:before {
     content: "\f1a0";
     /* content: "";
