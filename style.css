@@ -4712,8 +4712,10 @@ body.single-post:not(.aft-single-full-header) .figure-categories{
 /*single page default-----*/
 /*single page full-----*/
 body.single-post.aft-single-full-header .banner-promotions-wrapper{
+    /*
     margin-top: 20px;
     margin-bottom: 20px;
+    */
 }
 body.single-post.aft-single-full-header .entry-header{
     text-align: center;
