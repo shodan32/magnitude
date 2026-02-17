@@ -27,7 +27,7 @@
                 get_the_title()
             )); ?>
             <?php if (is_single()): ?>
-                <p><em>Теперь следить за нашими публикациями можно в <a href="https://news.google.com/publications/CAAqJQgKIh9DQklTRVFnTWFnMEtDMmwwYm1SaGFXeDVMbkoxS0FBUAE?hl=ru&amp;gl=RU&amp;ceid=RU%3Aru">Google Новостях</a>, а прямую речь Главреда, комментарии и самое интересное за день вы найдете в <a href="https://t.me/itndailyru">Telegram</a>.</em></p>
+                <p><em>Теперь следить за нашими публикациями можно в <a href="https://news.google.com/publications/CAAqJQgKIh9DQklTRVFnTWFnMEtDMmwwYm1SaGFXeDVMbkoxS0FBUAE?hl=ru&amp;gl=RU&amp;ceid=RU%3Aru">Google Новостях</a>, а прямую речь главреда, комментарии и самое интересное за день вы найдете в <a href="https://t.me/itndailyru">Telegram</a>.</em></p>
                 <div class="post-item-metadata entry-meta">
                     <?php magnitude_post_item_tag(); ?>
                 </div>
